@@ -30,20 +30,12 @@ point = (23, 34)
 #       квадратный корень - это возведение в степень 0.5
 #       операции сравнения дают булевы константы True и False
 
-import math
+x = 23
+y = 34
 
+point = x ^ 2 + y ^ 2 <= radius ^ 2
+print(point)
 
-
-    x_point = float(input("x = 23 "))
-    y_point = float(input("y = 34 "))
-    r_circle = float(input("R = 42 "))
-
-    hypotenuse = math.sqrt(x_point ** 2 + y_point ** 2)
-
-    if hypotenuse <= r_circle:
-        print("True")
-    else:
-        print("False")
 
 # Аналогично для другой точки
 point_2 = (30, 30)
